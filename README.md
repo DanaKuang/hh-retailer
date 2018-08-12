@@ -2,8 +2,9 @@
 1. 安装vue-loader之后，webpack仍然无法自动编译vue文件。需要在webpack.config.js中配置const { VueLoaderPlugin } = require('vue-loader'),然后在plugins中设置new VueLoaderPlugin()。
 2. 至此npm run build 和 npm run dev成功，config的配置如下
 ```
+const ENV_MODE = process.env.NODE_ENV;
 module.exports = {
-    mode: 'development',
+    mode: ENV_MODE,
     entry: {
         app: './src/main.js'
     },
