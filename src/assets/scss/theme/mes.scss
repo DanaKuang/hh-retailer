@@ -1,0 +1,20 @@
+.mes {
+    .signup-bg {
+        background: url(../../image/signup_bg_mes@2x.png) no-repeat;
+        background-size: 100% 100%;
+        h4, h2, span {
+            color: #126561;
+        }
+        .vcode-btn, .submit {
+            background: #126561;
+            color: #fff;
+        }
+        .qrcode {
+            background: url('../../image/qrcode_mes@2x.png') no-repeat;
+            background-size: 100% 100%;
+        }
+    }
+    .pop-tips {
+        color: #126561;
+    }
+}

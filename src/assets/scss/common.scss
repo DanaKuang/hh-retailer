@@ -1,0 +1,43 @@
+.invisible {
+	display: none;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.body-scroll-forbidden {
+	height: 100%;
+	overflow: hidden;
+}
+
+.body-fixed {
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.border-box {
+	box-sizing: border-box;
+}
+
+::-webkit-input-placeholder {
+	color: #A1A1A1;
+}
+
+input {
+	outline: none;
+	border: 0 none;
+}
+input.disabled {
+	background: #ddd!important;
+}

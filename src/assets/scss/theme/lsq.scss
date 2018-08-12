@@ -1,0 +1,20 @@
+.lsq {
+    .signup-bg {
+        background: url(../../image/signup_bg_lsq@2x.png) no-repeat;
+        background-size: 100% 100%;
+        h4, h2, span {
+            color: #008203;
+        }
+        .vcode-btn, .submit {
+            background: #008203;
+            color: #fff;
+        }
+        .qrcode {
+            background: url('../../image/qrcode_lsq@2x.png') no-repeat;
+            background-size: 100% 100%;
+        }
+    }
+    .pop-tips {
+        color: #008203;
+    }
+}

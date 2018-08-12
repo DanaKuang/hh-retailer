@@ -1,0 +1,20 @@
+.gold {
+    .signup-bg {
+        background: url(../../image/signup_bg_gold@2x.png) no-repeat;
+        background-size: 100% 100%;
+        h4, h2, span {
+            color: #AB794D;
+        }
+        .vcode-btn, .submit {
+            background: #AB794D;
+            color: #fff;
+        }
+        .qrcode {
+            background: url('../../image/qrcode_gold@2x.png') no-repeat;
+            background-size: 100% 100%;
+        }
+    }
+    .pop-tips {
+        color: #AB794D;
+    }
+}
