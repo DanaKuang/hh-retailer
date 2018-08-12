@@ -1,4 +1,4 @@
-### 采坑手动搭建vue
+### 手动搭建基于vue的webpack配置 --主要基于生产配置
 1. 安装vue-loader之后，webpack仍然无法自动编译vue文件。需要在webpack.config.js中配置const { VueLoaderPlugin } = require('vue-loader'),然后在plugins中设置new VueLoaderPlugin()。
 2. 至此npm run build 和 npm run dev成功，config的配置如下
 ```
